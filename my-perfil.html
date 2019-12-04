@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Proceso de Digitalización</title>
+	<link rel="stylesheet" href="C:/Users/andre/Downloads/normalize.css">
+	<link rel="stylesheet" href="miperfil.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<script src="C:/Users/andre/Downloads/modernizr-custom.js"></script>
+</head>
+<body>
+	<div id="main">
+		<header>
+			<figure>
+				<img src="C:/Users/andre/Pictures/logo_tec.png" alt="Logo de ITC">	
+			</figure>
+			<h1>Proceso de Digitalización</h1>			
+			<nav>
+				<ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a href="my-perfil.html">Perfil</a></li>
+				</ul>
+			</nav>
+		</header>
+					
+		<div class="caja-title">
+			<h3>Información Personal</h3>	
+		</div>
+	
+		<form class="principal" method="post" action=""> 
+			<section id="perfil">
+				<div class="datos-title">
+					<h4>Perfil</h4>
+				</div>
+				<div class="datos">
+					<label>Numero de control</label><input type="text" name="usuario"/>
+					<label>Contraseña</label><input type="password" name="contraseña"/>
+				</div>
+			</section>
+		
+			<section id="infobasic">
+				<div class="datos-title">
+					<h4>Información básica</h4>	
+				</div>
+				<div class="datos">
+					<label>Nombres</label><input type="text" name="nombres"/>
+					<label>Apellido Paterno</label><input type="text" name="apPaterno"/>
+					<label>Apellido Materno</label><input type="text" name="apMaterno"/>	
+					<label>Fecha de Nacimiento</label><input type="date" name="fnacimiento"/>
+				</div>
+			</section>
+		
+			<section id="infoacademic">
+				<div class="datos-title">
+					<h4>Información académica</h4>
+				</div>
+				<div class="datos">
+					<label>Matrícula</label><input type="text" name="matricula"/>
+					<label>Carrera</label><select name="carrera" id="carrera">
+						<option selected="selected" value=""></option>
+						<option value="Contador Público">Contador Público</option>
+						<option value="Lic.Administración">Lic.Administración</option>
+						<option value="Ing.Administración">Ing.Administración</option>
+						<option value="Ing.Gestión Empresarial">Ing.Gestión Empresarial</option>
+						<option value="Ing.Sistemas Computacionales">Ing.Sistemas Computacionales</option>
+						<option value="Ing.Civil">Ing.Civil</option>
+						<option value="Ing.Mecatrónica">Ing.Mecatrónica</option>
+						<option value="Ing.Electromecánica">Ing.Electromecánica</option>
+					</select>	
+				</div>					
+			</section>
+					
+			<section id="infocontact">
+				<div class="datos-title">
+					<h4>Información de contacto</h4>
+				</div>
+				<div class="datos">
+					<label>Correo Electrónico</label><input type="email" name="correo"/>
+					<label>Teléfono</label><input type="text" name="telefono"/>	
+				</div>
+			</section>
+
+			<section id="acept-button">
+					<input type="submit" name="acept" id="btn-acept" value="Actualizar datos"/>		
+			</section>
+		</form>	
+
+		<footer>
+			<section id="redessociales">
+				<span>
+					<a target="_blank" href="https://www.facebook.com/itcancun.edu"><img class="iconos" src="iconofacebook.png" alt="FacebookITC"></a>
+					<a target="_blank" href="https://twitter.com/itcun"><img class="iconos" src="iconotwitter.png" alt="TwitterITC"></a>
+					<a target="_blank" href="https://www.youtube.com/user/TecCancun86/"><img class="iconos" src="iconoyoutube.png" alt="YoutubeITC"></a>
+				</span>
+			</section>
+
+			<section id="informacion">
+				<p class="info"> Instituto Tecnológico de Cancún - Algunos derechos reservados © 2019</p>
+				<p class="info">Av. Kabah, Km. 3 Cancún Quintana Roo México C.P. 77515, Col. Centro</p>
+				<p class="info">Teléfono: 01 (998) 8-80-74-32</p>
+				<p class="politica">Política de privacidad y manejo de datos personales</p>
+			</section>
+		</footer>
+	</div>
+</body>
+</html>	

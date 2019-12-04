@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #fafafa;
+	font-family: sans-serif;
+	color: #515151;
+}
+
+div#main{
+	margin: auto;
+    width: 950px;
+}
+
+header{
+	background: #fafafa;
+	width : 950px;
+	height: 100px;
+	padding-top: 40px;
+}
+
+h1{
+	color: #515151;
+	text-align: center;
+	display: inline;
+	margin: 40px;
+}
+
+header img{
+	height: 100px;
+	float: left;
+	margin: -20px 0px 0px 20px;
+} 
+
+nav{  
+	float: right;	
+	height: 50px;
+	margin: 50px 0px 0px 0px;
+}
+
+nav ul li{
+	padding-top: 10px;
+	float: right;
+	list-style: none;
+	display: inline-block;
+	margin: 5px 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+	color: #b2b2b2;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 15px 10px 15px 10px;
+}
+
+nav ul li a:hover{
+	color: #b2b2b2;
+	border-left: 1px solid #A6ACAF;
+	border-right: 1px solid #A6ACAF;
+}
+
+.caja-title{
+	width: 100%;
+	height: 40px;
+	float: right;
+	background-color: #E5E7E9;
+	margin: 10px 0px;
+}
+
+h2{
+	padding: 5px 10px;
+}
+
+form{
+	width: 800px;
+	margin: 10px 75px 20px;
+	float: left;	
+}
+
+form label{
+    display: inline-block;
+    width: 180px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+form input{
+    display: inline-block;
+    width: 50%;
+	height: 35px;
+    margin-bottom: 10px;
+	padding: 5px;
+	border: 1px solid #E2E2E2;
+	border-radius: 3px;
+}
+
+.datos{
+	padding: 15px 10px;
+}
+
+#acept-button{
+	width: 150px;
+	background: #3498DB;
+	font-weight: bold;
+	color: white;
+	border: 0px none;
+	padding: 20px auto;
+	margin: 20px auto;
+} 
+
+#acept-button:hover{
+	background: #1B4F72;
+}
+
+footer{
+	color: black;
+	clear: both;
+	float: left;
+	height: 210px;
+	margin-top: 25px;
+	text-align: center;
+	width: 950px;
+}
+section#redessociales{
+	background: #f0f0f0;
+	height: 100px;
+}
+
+span{	
+	padding-top: 25px;
+	padding-bottom: 25px;
+	display: inline-block;
+}
+
+.iconos{
+	height: 50px;
+	padding: 0px 10px 0px 10px;
+}
+
+section#informacion{
+	background: #e6e6e6;
+	height: 110px;
+	line-height: 25px;
+	padding-top: 10px;
+}
+
+.politica{
+	color: #808080;
+	font-weight: bold;
+}		

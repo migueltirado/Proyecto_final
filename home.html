@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Proceso de Digitalización</title>
+		<link rel="stylesheet" href="C:/Users/andre/Downloads/normalize.css">
+		<link rel="stylesheet" href="home.css">
+		<script src="C:/Users/andre/Downloads/modernizr-custom.js"></script>
+	</head>
+	
+	<body>
+		<div id="main">
+			<header>
+				<figure>
+					<img src="C:/Users/andre/Pictures/logo_tec.png" alt="Logo de ITC">	
+				</figure>
+				<h1>Proceso de Digitalización</h1>			
+				<nav>
+					<ul>
+						<li><a href="home.html">Home</a></li>
+						<li><a href="my-perfil.html">Perfil</a></li>
+					</ul>
+				</nav>
+			</header>
+	
+			<div class="contenedor">
+				<form class="form-datos" id="Form" method="" action="" enctype="multipart/form-data">
+					<!--<div class="form-header">
+						<ul class="pasos">
+							<li class="pasos-opcion active">Paso 1</li>
+							<li class="pasos-opcion">Paso 2</li>
+						</ul>
+					</div>-->
+					
+					<div class="form-body">
+						<div class="step active inactive" id="paso-1">
+							<div class="paso-header">
+								<h3 class="paso-title">Describe tu proyecto</h3>
+							</div>	
+							<div class="paso-body">
+								<input type="text" id="npro" name="npro" placeholder="Nombre de proyecto">
+								<input type="date" id="fecha" name="fecha">
+								<textarea id="descripcion" name="descripcion" placeholder="Descripción de proyecto"></textarea>
+							</div>
+							<div class="paso-footer">
+								<input type="submit" id="nextNext" class="step_button step_button--next" name="aceptar" value="Aceptar">
+							</div>
+						</div>
+						
+						<div class="step" id="paso-2">
+							<div class="paso-header">
+								<h3 class="paso-title">Sube tus documentos</h3>
+							</div>
+							<div class="paso-body">
+								<label>Portada</label><input type="file" id="filePortada" name="file1" multiple>
+								<label>Indice</label><input type="file" id="fileIndice" name="file2" multiple>
+								<label>Cuerpo</label><input type="file" id="fileCuerpo" name="file3" multiple>
+								<label>Documento PDF</label><input type="file" id="filePDF" name="file4" multiple>
+								<label>Autorización</label><input type="file" id="fileAutorizacion" name="file5" multiple>
+							</div>
+							<div class="paso-footer">
+								<!--<input type="submit" id="nextBack" class="step_button step_button--back" name="Regresar" value="Regresar">-->
+								<input type="submit" id="nextNext" class="step_button step_button--next"  name="aceptar" value="Aceptar">
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<aside id="about">
+				<p class="barra1">Acerca de Depto. Digitalización</p>
+				<p></p>
+			</aside>
+				
+			<aside id="horario">
+				<p class="barra2">Horario</p>
+				<p class="hora">Lunes-Miércoles</p>
+				<p class="hora">08:00 A.M - 08:00 P.M</p>		
+			</aside>
+		
+
+			<footer>
+
+				<section id="redessociales">
+					<span>
+						<a target="_blank" href="https://www.facebook.com/itcancun.edu"><img class="iconos" src="iconofacebook.png" alt="FacebookITC"></a>
+						<a target="_blank" href="https://twitter.com/itcun"><img class="iconos" src="iconotwitter.png" alt="TwitterITC"></a>
+						<a target="_blank" href="https://www.youtube.com/user/TecCancun86/"><img class="iconos" src="iconoyoutube.png" alt="YoutubeITC"></a>
+					</span>
+				</section>
+
+				<section id="informacion">
+					<p class="info"> Instituto Tecnológico de Cancún - Algunos derechos reservados © 2019</p>
+					<p class="info">Av. Kabah, Km. 3 Cancún Quintana Roo México C.P. 77515, Col. Centro</p>
+					<p class="info">Teléfono: 01 (998) 8-80-74-32</p>
+					<p class="politica">Política de privacidad y manejo de datos personales</p>
+				</section>
+			</footer>
+		</div>
+		
+		<script src="home.js"></script>
+		
+	</body>
+</html>
