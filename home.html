@@ -25,14 +25,10 @@
 			</header>
 	
 			<div class="contenedor">
-				<form class="form-datos" id="Form" method="" action="" enctype="multipart/form-data">
-					<!--<div class="form-header">
-						<ul class="pasos">
-							<li class="pasos-opcion active">Paso 1</li>
-							<li class="pasos-opcion">Paso 2</li>
-						</ul>
-					</div>-->
-					
+				<form class="form-datos" id="Form" method="POST" action="upload.php" enctype="multipart/form-data">
+					<div class="progreso">
+						<div class="progressbar"></div>	
+					</div>	
 					<div class="form-body">
 						<div class="step active inactive" id="paso-1">
 							<div class="paso-header">
@@ -60,7 +56,6 @@
 								<label>Autorización</label><input type="file" id="fileAutorizacion" name="file5" multiple>
 							</div>
 							<div class="paso-footer">
-								<!--<input type="submit" id="nextBack" class="step_button step_button--back" name="Regresar" value="Regresar">-->
 								<input type="submit" id="nextNext" class="step_button step_button--next"  name="aceptar" value="Aceptar">
 							</div>
 						</div>
@@ -97,9 +92,6 @@
 					<p class="politica">Política de privacidad y manejo de datos personales</p>
 				</section>
 			</footer>
-		</div>
-		
-		<script src="home.js"></script>
-		
+		</div>	
 	</body>
 </html>
